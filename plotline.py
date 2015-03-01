@@ -1,16 +1,6 @@
 """
 plotline plots a simple line graph of tabular input data from files or stdin. It
-will plot up to 16 lines.
-
-Note: plotline does very little input validation. It parses each line as space-
--separated floats; strings that cannot be parsed as floats return 0.0 A column
-that is entirely parsed as 0.0 is dropped from the data.
-
-FOR EXAMPLE:
-    ping 8.8.8.8 -c 10 | head -11 | tail | cut -d "=" -f 4 | plotline
-Will plot the time of 10 pings to 8.8.8.8 as a line.
-
-Dependent on matplotlib.
+will plot up to 16 lines. See the readme for more information.
 
 LICENSE NOTICE:
 
